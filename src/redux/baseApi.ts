@@ -4,7 +4,8 @@ import { createApi } from "@reduxjs/toolkit/query/react";
 
 const tagTypes: string[] = [
     "COURSE",
-    "MY_COURSE"
+    "MY_COURSE",
+    "DASHBOARD"
 ]
 
 export const baseApi = createApi({

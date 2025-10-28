@@ -12,7 +12,7 @@ export const enrollApi = baseApi.injectEndpoints({
                     Authorization: `Bearer ${authToken.getTokenFromLocalStorage()}`
                 },
             }),
-            invalidatesTags: ["MY_COURSE"],
+            invalidatesTags: ["MY_COURSE", "DASHBOARD"],
         }),
 
     })

@@ -12,6 +12,7 @@ export const enrollApi = baseApi.injectEndpoints({
                     Authorization: `Bearer ${authToken.getTokenFromLocalStorage()}`
                 },
             }),
+            providesTags: ["DASHBOARD"]
         }),
 
     })

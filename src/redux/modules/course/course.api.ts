@@ -39,7 +39,7 @@ export const courseApi = baseApi.injectEndpoints({
                     Authorization: `Bearer ${authToken.getTokenFromLocalStorage()}`
                 },
             }),
-            invalidatesTags: ["COURSE"],
+            invalidatesTags: ["COURSE", "DASHBOARD"],
         }),
 
         updateCourse: builder.mutation({
@@ -51,7 +51,7 @@ export const courseApi = baseApi.injectEndpoints({
                     Authorization: `Bearer ${authToken.getTokenFromLocalStorage()}`
                 },
             }),
-            invalidatesTags: ["COURSE"],
+            invalidatesTags: ["COURSE", "DASHBOARD"],
         }),
 
         deleteCourse: builder.mutation({
@@ -62,7 +62,7 @@ export const courseApi = baseApi.injectEndpoints({
                     Authorization: `Bearer ${authToken.getTokenFromLocalStorage()}`
                 },
             }),
-            invalidatesTags: ["COURSE"],
+            invalidatesTags: ["COURSE", "DASHBOARD"],
         }),
 
 
