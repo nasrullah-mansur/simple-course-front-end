@@ -19,6 +19,20 @@ export default function Register() {
                 <p className="mt-5 text-sm text-center">
                     Do not have account? <NavLink to="/register" className="underline">Register</NavLink>
                 </p>
+
+                <Separator />
+
+                <div className="mt-6 text-center">
+                    <h4>Admin</h4>
+                    <p>Email: admin@email.com</p>
+                    <p>Pass: 123</p>
+                </div>
+
+                <div className="mt-6 text-center">
+                    <h4>User</h4>
+                    <p>Email: user@email.com</p>
+                    <p>Pass: 123</p>
+                </div>
             </div>
         </div>
     )
