@@ -6,7 +6,7 @@ export const courseApi = baseApi.injectEndpoints({
     endpoints: (builder) => ({
         courses: builder.query({
             query: (page) => ({
-                url: `/courses/?page=${page}`,
+                url: `/courses?page=${page}`,
                 method: "GET",
             }),
             providesTags: ["COURSE"]
